@@ -7,12 +7,9 @@ import Club from "./components/club-photos/Club.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import './index.css'
-import VideoPlayer from "./components/video-play/VideoPlayer.jsx";
-import {useState} from "react";
 
 const App = () => {
 
-    const [playState, setPlayState] = useState(false);
 
     return (
         <div>
@@ -22,14 +19,13 @@ const App = () => {
                 <Title subTitle='Our Competition' title='What We Think' />
                 <Competition/>
                 <Title subTitle='About Us' title='Welcome' />
-                <About setPlayState={setPlayState} />
+                <About />
                 <Title subTitle='Gallery' title='Some Club Photos' />
                 <Club />
                 <Title subTitle='Contact Us' title='Get in Touch' />
                 <Contact />
                 <Footer />
             </div>
-
         </div>
     );
 };

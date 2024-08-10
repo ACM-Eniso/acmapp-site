@@ -1,16 +1,15 @@
 import './About.css'
-import about_img from'../../assets/about.png'
-import play_img from'../../assets/play-icon.png'
+import video from "../../assets/Red and Black Futuristic Gaming Channel YouTube Intro.mp4";
 
-// eslint-disable-next-line react/prop-types
-const About = ({setPlayState}) => {
+const About = () => {
 
     return (
         <div className="about" >
           <div className="about-left" >
-                <img src={about_img} className='about-img'/>
-                <img src={play_img} onClick={()=>{setPlayState(true)}} className='play-icon'/>
-          </div>
+
+              <div className={'video-player'} >
+                  <video src={video} autoPlay controls></video>
+              </div>          </div>
             <div className="about-right">
                 <p>
                     ACM ENISo is a thriving community of
