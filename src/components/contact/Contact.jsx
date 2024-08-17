@@ -37,7 +37,7 @@ const Contact = () => {
     return (
         <div className="contact" >
             <div className="contact-col">
-                <h3>Send us a message <img src={msg_icon}/></h3>
+                <h3>Send us a message <img src={msg_icon} alt=""/></h3>
                 <p>We d love to hear from you! Whether you have questions,
                     suggestions, or just want to say hello, feel free to send us a message.
                     Our team is here to help,
@@ -45,9 +45,9 @@ const Contact = () => {
                     Don’t hesitate—reach out today!
                 </p>
                 <ul>
-                    <li><img src={mail_icon}/>acm.enisoclub@gmail.com</li>
-                    <li><img src={phone_icon}/>phone number</li>
-                    <li><img src={location_icon}/>Ecole nationale d&apos;ingénieurs de Sousse - ENISo</li>
+                    <li><img src={mail_icon} alt="mail_icon"/>acm.enisoclub@gmail.com</li>
+                    <li><img src={phone_icon} alt="phone_icon"/>phone number</li>
+                    <li><img src={location_icon} alt="location_icon"/>Ecole nationale d&apos;ingénieurs de Sousse - ENISo</li>
                 </ul>
             </div>
             <div className="contact-col">
