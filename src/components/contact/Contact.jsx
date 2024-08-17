@@ -45,9 +45,9 @@ const Contact = () => {
                     Don’t hesitate—reach out today!
                 </p>
                 <ul>
-                    <li><img src={mail_icon}/>e-mail</li>
+                    <li><img src={mail_icon}/>acm.enisoclub@gmail.com</li>
                     <li><img src={phone_icon}/>phone number</li>
-                    <li><img src={location_icon}/>adresse</li>
+                    <li><img src={location_icon}/>Ecole nationale d&apos;ingénieurs de Sousse - ENISo</li>
                 </ul>
             </div>
             <div className="contact-col">
