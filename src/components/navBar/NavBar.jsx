@@ -1,5 +1,5 @@
 import './NavBar.css';
-import logo from '../../assets/logo.webp'
+import logo from '../../assets/logo.svg'
 import menu_icon from '../../assets/menu-icon.png'
 import {useEffect, useState} from "react";
 import {Link} from 'react-scroll';

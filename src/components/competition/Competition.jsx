@@ -10,13 +10,13 @@ const Competition = () => {
             <div className="competition">
                 <img src={competition_1}/>
                 <div className="caption">
-                    <p>info night</p>
+                    <p>Info Night</p>
                 </div>
             </div>
             <div className="competition">
                 <img src={competition_2}/>
                 <div className="caption">
-                    <p>Puzzles game</p>
+                    <p>Sousse Collegiate Programming Context</p>
                 </div>
             </div>
             <div className="competition">
