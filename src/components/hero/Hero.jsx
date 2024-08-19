@@ -16,7 +16,7 @@ const Hero = () => {
                 </p>
                 <div>
 
-                    <a href="https://www.youtube.com/watch?v=Og_bA70eKvk">
+                    <a href="https://ameur-bellil.github.io/puzzle0/">
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
                         <button className="btn">Let's go <img src={dark_arrow} alt=""/></button>
                         <img src={himoz}/>
