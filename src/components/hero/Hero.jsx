@@ -1,6 +1,5 @@
 import './Hero.css'
 import dark_arrow from "../../assets/dark-arrow.png"
-import himoz from "../../assets/himoz.png"
 
 const Hero = () => {
     return (
@@ -15,12 +14,9 @@ const Hero = () => {
                     meet other developers and join a global coding community .
                 </p>
                 <div>
-
-                    <a href="https://ameur-bellil.github.io/puzzle0/">
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
                         <button className="btn">Let's go <img src={dark_arrow} alt=""/></button>
-                        <img src={himoz}/>
-                    </a>
+
                 </div>
             </div>
         </div>
