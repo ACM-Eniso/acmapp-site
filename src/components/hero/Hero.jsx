@@ -13,11 +13,6 @@ const Hero = () => {
                     solve algorithmic puzzles and
                     meet other developers and join a global coding community .
                 </p>
-                <div>
-                        {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        <button className="btn">Let's go <img src={dark_arrow} alt=""/></button>
-
-                </div>
             </div>
         </div>
     );
