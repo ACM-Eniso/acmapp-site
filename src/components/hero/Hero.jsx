@@ -1,5 +1,6 @@
 import './Hero.css'
 import dark_arrow from "../../assets/dark-arrow.png"
+import himoz from "../../assets/himoz.png";
 
 const Hero = () => {
     return (
@@ -13,6 +14,10 @@ const Hero = () => {
                     solve algorithmic puzzles and
                     meet other developers and join a global coding community .
                 </p>
+                <div className="puzzle">
+                    <img src={himoz}/>
+                </div>
+                <button  className="btn">Let's play</button>
             </div>
         </div>
     );

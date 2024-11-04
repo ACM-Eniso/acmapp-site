@@ -23,6 +23,11 @@
     margin: 10px auto 20px;
     line-height: 1.4;
 }
+.puzzle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* ---- media Query ----*/
 @media (max-width:730px ){

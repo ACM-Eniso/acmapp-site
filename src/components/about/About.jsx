@@ -56,7 +56,7 @@ const About = () => {
             <br/><br/>
             <center>
 
-                    <video className='about-video' src={video} autoPlay controls ></video>
+                    <video className='about-video' src={video} controls ></video>
             </center>
         </div>
     );
